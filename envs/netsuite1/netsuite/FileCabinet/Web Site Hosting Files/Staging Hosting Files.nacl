@@ -1,0 +1,10 @@
+netsuite.folder Web_Site_Hosting_Files_Staging_Hosting_Files@sssdss {
+  bundleable = false
+  description = "Hosted staging root"
+  isinactive = false
+  isprivate = false
+  path = "/Web Site Hosting Files/Staging Hosting Files"
+  _parent = [
+    "[/Web Site Hosting Files]",
+  ]
+}

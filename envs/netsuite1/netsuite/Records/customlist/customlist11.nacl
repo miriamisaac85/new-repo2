@@ -1,0 +1,29 @@
+netsuite.customlist customlist11 {
+  scriptid = "customlist11"
+  isinactive = false
+  ismatrixoption = false
+  isordered = true
+  name = "my list"
+  customvalues = {
+    customvalue = [
+      {
+        scriptid = "val_52045_t2257896_478"
+        abbreviation = "1"
+        isinactive = false
+        value = "1"
+      },
+      {
+        scriptid = "val_52046_t2257896_832"
+        abbreviation = "2"
+        isinactive = false
+        value = "2"
+      },
+      {
+        scriptid = "val_52047_t2257896_529"
+        abbreviation = "3"
+        isinactive = false
+        value = "3"
+      },
+    ]
+  }
+}

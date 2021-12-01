@@ -1,0 +1,61 @@
+netsuite {
+  fetch = {
+    include = {
+      types = [
+        {
+          name = ".*"
+        },
+      ]
+      fileCabinet = [
+        "^/SuiteScripts.*",
+        "^/Templates.*",
+        "^/SuiteBundles.*",
+      ]
+    }
+    exclude = {
+      fileCabinet = [
+      ]
+      types = [
+        {
+          name = "dataset"
+        },
+        {
+          name = "savedsearch"
+          ids = [
+            ".*",
+          ]
+        },
+        {
+          name = "workbook"
+        },
+        {
+          name = "customer"
+        },
+        {
+          name = "accountingPeriod"
+        },
+        {
+          name = "employee"
+        },
+        {
+          name = "job"
+        },
+        {
+          name = "manufacturingCostTemplate"
+        },
+        {
+          name = "partner"
+        },
+        {
+          name = "solution"
+        },
+        {
+          name = "giftCertificateItem"
+        },
+        {
+          name = "downloadItem"
+        },
+      ]
+    }
+  }
+}

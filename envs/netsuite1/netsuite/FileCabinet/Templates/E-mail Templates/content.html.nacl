@@ -1,0 +1,13 @@
+netsuite.file Templates_E_mail_Templates_content_html@dbsdv {
+  availablewithoutlogin = false
+  bundleable = false
+  description = "demo description"
+  generateurltimestamp = false
+  hideinbundle = false
+  isinactive = false
+  path = "/Templates/E-mail Templates/content.html"
+  content = file("netsuite/FileCabinet/Templates/E-mail Templates/content.html")
+  _parent = [
+    "[/Templates/E-mail Templates]",
+  ]
+}
