@@ -1,7 +1,7 @@
 netsuite.file Templates_E_mail_Templates_Inner_EmailTemplates_Folder_CreatedContent_html@dbsdssdv {
   availablewithoutlogin = false
   bundleable = false
-  generateurltimestamp = false
+  generateurltimestamp = true
   hideinbundle = false
   isinactive = false
   path = "/Templates/E-mail Templates/Inner EmailTemplates Folder/CreatedContent.html"
